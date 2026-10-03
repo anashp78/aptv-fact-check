@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --aptv-gold: #f0b429;
+  --aptv-red: #ef4444;
+  --aptv-green: #22c55e;
+  --aptv-blue: #3b82f6;
+  --aptv-gray: #64748b;
+  --aptv-bg: #0f172a;
+  --aptv-surface: #1e293b;
+  --aptv-border: #334155;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: var(--aptv-bg);
+  color: #e2e8f0;
+  min-height: 100vh;
+}
